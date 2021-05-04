@@ -1,0 +1,4 @@
+<launch>
+  <node name="test_publisher"   pkg="latency_test" type="test_publisher" />
+  <node name="test_sybscriber" pkg="latency_test" type="test_subscriber" output="screen"/>
+</launch>
